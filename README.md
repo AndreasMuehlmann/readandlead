@@ -12,7 +12,8 @@ Clone the git repository with
 if git is not installed download the
 repository from the website via the zip-archive (click on the green button).
 
-To start the program run "./readandlead.exe" or "pyhton main.py" if pyhton is installed.
+To start the program run "./readandlead.exe" if you're on windows.
+Otherwise run "pyhton main.py" if pyhton is installed.
 
 
 # Write a story
