@@ -33,8 +33,8 @@ def get_choice(actions):
 
 
 def main():
-    path = os.path.dirname(__file__)
-    path = os.path.join(path, 'Levels')
+    path = os.path.dirname(sys.argv[0])
+    path = os.path.join(path, 'Storys')
 
     print('\n\nREADANDLEAD\n')
     print('Write "quit" to quit the game.')
@@ -51,7 +51,6 @@ def main():
         if len(actions) == 0:
             return
 
-        print('What will you do?')
         print_actions(actions)
         print()
 
